@@ -1,0 +1,63 @@
+body {
+    margin: 0.4em;
+    padding: 1em;
+    background-color: black;
+    border: 3px solid gold;
+  }
+  
+  .div1 {
+    background-color: black;
+    transition: background-color , transform 1s;
+    color: white;
+    border: 2px dashed;
+  }
+  .div2 {
+    background-color: black;
+    transition: background-color , transform 1s;
+    color: white;
+    border: 2px dashed;
+  }
+  .div3 {
+    background-color: black;
+    transition: background-color , transform 1s;
+    color: white;
+    border: 2px dashed;
+  }
+  
+  .div1:hover {
+    background-color: white;
+    transform: rotate3d(0, 1, 0, 180deg);
+    color: black;
+    border: none;
+  }
+  .div2:hover {
+    background-color: white;
+    transform: scale(1.2);
+    color: black;
+    border: none;
+  }
+  .div3:hover {
+    background-color: white;
+    transform: skewX(35deg);
+    color: black;
+    border: none;
+  }
+  
+  div {
+    display: flex;
+    width: 20em;
+    height: 10em;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  section {
+    display: flex;
+    gap: 8em;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 4.8em;
+    align-items: center;
+  }
